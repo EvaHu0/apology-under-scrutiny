@@ -1,0 +1,193 @@
+{
+  "case": "CrowdStrike",
+  "collection": {
+    "t_crisis_utc": 1721362140,
+    "t_apology_utc": 1721403900,
+    "collection_window_start": 1721275740,
+    "collection_window_end": 1723995900,
+    "subreddits": [
+      "technology",
+      "sysadmin",
+      "news"
+    ],
+    "query": "CrowdStrike",
+    "raw_comments": 3873,
+    "after_filtering": 3768,
+    "by_subreddit": {
+      "sysadmin": 1473,
+      "technology": 1457,
+      "news": 838
+    },
+    "by_window": {
+      "post": 3389,
+      "pre": 379
+    },
+    "source": "PullPush.io API",
+    "collected_at": "2026-05-26T00:24:22.290708+00:00"
+  },
+  "sentiment": {
+    "vader": {
+      "pre": {
+        "mean": -0.05226068601583114,
+        "std": 0.4602930629616432,
+        "n": 379
+      },
+      "post": {
+        "mean": 0.004293892003540865,
+        "std": 0.5546448578476537,
+        "n": 3389
+      },
+      "welch_t": -2.216034694029328,
+      "p_value": 0.02713074931419569,
+      "shift": 0.056554578019372005
+    },
+    "roberta": {
+      "pre": {
+        "mean": -0.4396861573007931,
+        "std": 0.4549802545329125,
+        "n": 379
+      },
+      "post": {
+        "mean": -0.3680374572132147,
+        "std": 0.4547257209202002,
+        "n": 3389
+      },
+      "welch_t": -2.9041402770991436,
+      "p_value": 0.0038574674139135786,
+      "shift": 0.0716487000875784
+    },
+    "agreement_rate": 0.4692144373673036
+  },
+  "topics": {
+    "best_k": 6,
+    "coherence_scores": {
+      "4": 0.4340876391703913,
+      "5": 0.4044672853766868,
+      "6": 0.48714251448497303,
+      "7": 0.452818358310954,
+      "8": 0.44583143493966954
+    },
+    "topic_words": {
+      "0": [
+        "update",
+        "testing",
+        "software",
+        "system",
+        "test",
+        "driver",
+        "file",
+        "window",
+        "kernel",
+        "process",
+        "code",
+        "content",
+        "issue",
+        "security",
+        "customer"
+      ],
+      "1": [
+        "window",
+        "server",
+        "file",
+        "system",
+        "recovery",
+        "key",
+        "boot",
+        "fix",
+        "running",
+        "safe",
+        "machine",
+        "computer",
+        "bitlocker",
+        "run",
+        "mode"
+      ],
+      "2": [
+        "thing",
+        "outage",
+        "company",
+        "way",
+        "time",
+        "work",
+        "never",
+        "good",
+        "week",
+        "people",
+        "month",
+        "got",
+        "fuck",
+        "year",
+        "shit"
+      ],
+      "3": [
+        "microsoft",
+        "kernel",
+        "window",
+        "software",
+        "system",
+        "access",
+        "linux",
+        "issue",
+        "security",
+        "party",
+        "update",
+        "level",
+        "use",
+        "problem",
+        "people"
+      ],
+      "4": [
+        "company",
+        "people",
+        "time",
+        "day",
+        "issue",
+        "going",
+        "year",
+        "work",
+        "ceo",
+        "still",
+        "delta",
+        "business",
+        "outage",
+        "thing",
+        "know"
+      ],
+      "5": [
+        "company",
+        "delta",
+        "use",
+        "microsoft",
+        "product",
+        "insurance",
+        "damage",
+        "going",
+        "much",
+        "contract",
+        "loss",
+        "think",
+        "sue",
+        "edr",
+        "time"
+      ]
+    },
+    "prevalence_by_window": {
+      "post": {
+        "topic_0": 0.17012448608875275,
+        "topic_1": 0.09740082174539566,
+        "topic_2": 0.15848638117313385,
+        "topic_3": 0.12280230969190598,
+        "topic_4": 0.30385878682136536,
+        "topic_5": 0.1473272442817688
+      },
+      "pre": {
+        "topic_0": 0.15764063596725464,
+        "topic_1": 0.14765848219394684,
+        "topic_2": 0.1631602942943573,
+        "topic_3": 0.1308440864086151,
+        "topic_4": 0.302930623292923,
+        "topic_5": 0.09776588529348373
+      }
+    }
+  }
+}
