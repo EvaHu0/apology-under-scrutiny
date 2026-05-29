@@ -1,0 +1,22 @@
+# apology-under-scrutiny — Python dependencies
+# Pilot analysis (CrowdStrike): dual-method sentiment (VADER + RoBERTa),
+# LDA topic modeling, and the PullPush.io retrieval step.
+#
+# Versions are intentionally left open here. To make this a real reproducibility
+# manifest, regenerate it with exact pins from the environment that produced
+# your figures (e.g. a fresh Colab session running the notebooks end to end):
+#     pip freeze | grep -iE 'pandas|numpy|scipy|matplotlib|requests|nltk|gensim|vaderSentiment|transformers|torch|accelerate' > requirements.txt
+# Note the known gensim / numpy>=2 / scipy compatibility friction — verify a
+# clean install actually runs before you cite this file.
+
+pandas
+numpy
+scipy
+matplotlib
+requests
+nltk
+gensim
+vaderSentiment
+transformers
+torch
+accelerate
